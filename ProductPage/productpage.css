@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
+/* START OF STYLING BY ABDULKAREEM MUSTAPHA */
 
 main.product {
     display: flex;
@@ -15,6 +8,7 @@ main.product {
     align-items: center;
     background-color: #F4F4F4;
     padding: 50px;
+    margin-top: 88px;
 }
 
 main.product .each-product {
@@ -70,9 +64,11 @@ main.product .each-product p.product-rating {
     column-gap: 3px;
 }
 
-main.product .each-product p.product-rating svg:hover {
-    /* fill: white;
+/* main.product .each-product p.product-rating svg:hover {
+    fill: white;
     border: 1px solid red;
     background-color: white;
-    outline: black; */
-}
+    outline: black;
+} */
+
+/* END OF STYLING BY ABDULKAREEM MUSTAPHA */
