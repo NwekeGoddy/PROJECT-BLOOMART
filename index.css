@@ -1,0 +1,259 @@
+/* importing font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* reset browser default tags */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+
+
+
+.small-container{
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h2{
+  font-size: 12px;
+}
+.col-4{
+  flex-basis: 15%;
+  padding:10px;
+  min-width: 50px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+
+}
+.col-4 img{
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 10px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+
+}
+/* 
+.title::after{
+  content:'';
+  background:  #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+h4{
+  color: #555;
+  /* font-weight: bold; */
+  font-size: 14px;
+
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+.col-4 p{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.rating .fa{
+  color: #555;
+}
+.col-4:hover {
+  transform: translateY(-5px)
+}
+
+/* offer */
+.offer{
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: 80px;
+  padding: 30px 0;
+}
+.col-2 .off-img{
+  padding: 50px;
+}
+small{
+  color:#555;
+}
+
+
+
+/* SHOP-NOW */
+
+.shop-now{
+display: flex;
+/* margin: auto; */
+padding: 0 70px;
+/* gap: 1; */
+justify-content: space-between;
+cursor: pointer;
+margin-bottom: 50px;
+
+
+}
+
+/* .click-shop{
+  margin-right: 60px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}  */
+
+/* 
+.poto-ibanner{
+  background:  50% 0 no-repeat;
+   background-size: cover; 
+   min-height: 568.2px; */
+   /* width: 80%; 
+   left: 50%;  */
+   /* top: 50%;  */
+   /* transform: translate(-50%, -50%); */
+  
+/* } */
+
+.ibanner{
+  background-image: url(https://cdn.shopify.com/s/files/1/0509/3457/9349/files/shop18_home_banner3.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  position: relative; 
+
+} 
+.ibanner-wrap{
+  text-align: center;
+  padding-top: 15%;
+}
+
+.ibanner h2{
+  font-size: 2.5em;
+  line-height: 1; 
+  
+   letter-spacing: -0.025em;
+   text-transform: uppercase;
+   color: #fff;
+   padding-left: 4.5em;
+   padding-right: 4.5em;
+
+}
+
+.btn-ibanner{
+
+  background-color: #ffffff;
+  color:  #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 70px;
+  border: none;
+  margin: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+ 
+
+.rob{
+  background-color: #000;
+  height: 400px;
+}
+.calm{
+  float: left;
+  width: 25%;
+  padding: 1 10px;
+  
+}
+
+.car h1{
+  font-size: 14px;
+  font-weight: bold;
+}
+.car h2{
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.car p{
+  color: #8a8a8a;
+}
+/* Remove extra left and right margins, due to padding */
+.bob{margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rob:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .calm {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.car {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  margin-top: 70px;
+  padding: 20px;
+  text-align: center;
+  /* background-color: #f1f1f1; */
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BRANDS */
+
+.brands{
+  margin: 100px auto;
+}
+.col-5{
+  width: 150px;
+
+}
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+  filter: grayscale(0);
+}
+
+
+
