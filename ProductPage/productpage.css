@@ -1,18 +1,17 @@
 /* START OF STYLING BY ABDULKAREEM MUSTAPHA */
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 main.product {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #F4F4F4;
     padding: 50px 10px;
-    margin-top: 88px;
-    
+    margin-top: 88px;    
 }
 
 main.product .each-product {
@@ -52,7 +51,7 @@ main.product .each-product p.product-tag i {
 
 p.product-tag .fa-heart {
     color: white;
-    text-shadow: 0 0 3px #000;
+    /* text-shadow: 0 0 0.3px #000;  */
 }
 
 p.product-tag .fa-heart:hover {
@@ -83,7 +82,7 @@ main.product .each-product p.product-rating {
     column-gap: 3px;
 }
 .product .fa-star {
-    text-shadow: 0 0 3px #000;
+    /* text-shadow: 0 0 0.3px #000; */
     color: white;
 }
 .product .fa-star:hover, .product i.rated {
@@ -91,6 +90,16 @@ main.product .each-product p.product-rating {
     outline: black; */
     color:rgb(236, 236, 12);
 }
+
+/* @media screen and (min-width: 900px) {
+    main.product .each-product {
+        max-width: 200px;
+    }
+
+    main.product .each-product img {
+        height: 200px;
+    }
+} */
 
 
 /* main.product .each-product p.product-rating svg:hover {
