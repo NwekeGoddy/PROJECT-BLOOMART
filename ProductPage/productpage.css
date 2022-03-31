@@ -18,10 +18,6 @@ main.product .each-product {
     /* border: 1px solid black; */
 }
 
-/* main.product .each-product:first-of-type {
-    border: none;
-} */
-
 main.product .each-product .product-image {
     background-color: white;
     margin-bottom: 10px;
@@ -112,32 +108,4 @@ main.product .each-product p.product-rating {
     color: rgb(201, 32, 32);
 }
 
-/* @media screen and (min-width: 900px) {
-    main.product .each-product {
-        max-width: 200px;
-    }
-
-    main.product .each-product img {
-        height: 200px;
-    }
-} */
-
-
-/* main.product .each-product p.product-rating svg:hover {
-    fill: white;
-    border: 1px solid red;
-    background-color: white;
-    outline: black;
-} */
-
 /* END OF STYLING BY HAUWA AND ABDULKAREEM MUSTAPHA */
-/* END OF STYLING BY ABDULKAREEM MUSTAPHA */
-
-.products {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-}
-
-.each-product {
-    margin: 0.8rem;
-}
