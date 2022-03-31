@@ -1,0 +1,146 @@
+/* importing font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* reset browser default tags */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+main{
+  background: #eee;
+  margin-top: 80px;
+}
+.first-section{
+  padding: 30px 50px;
+  color: #282d3b;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+h2{
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1;
+}
+h2 > span{
+  display: block;
+  font-size: 4.4rem;
+  font-weight: 400;
+  margin-top: 0.3rem;
+  color: #21293c;
+}
+
+.first-section p{
+  max-width: 835px;
+  margin: 0 auto;
+  letter-spacing: .2px;
+  line-height: 27px;
+  padding-top: 20px;
+  color: #646a70;
+  font-size: 1.1rem;
+}
+.second-section{
+  padding-bottom: 100px;
+}
+.second-section-header{
+  justify-content: center;
+  text-align: center; 
+}
+.section-two-wrapper{
+  margin: 20px;
+}
+.row-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.subsection-wrapper{
+  display: flex;  
+  max-width: 600px;
+  padding: 30px;
+  margin: 15px;
+}
+.text-wrapper p{
+  color: #646a70;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  padding-top: 20px;
+}
+.text-wrapper{
+  margin-left:5px;
+}
+.third-section-wrapper{
+  display: flex;
+  margin: 40px;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.our-team{
+  max-width: 400px;
+}
+.our-team-members{
+  background: #fff;
+  margin: 20px;
+  margin-top: 0;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.our-team-members:hover{
+  box-shadow: 4px 16px 16px 4px rgba(0,0,0,.2);
+}
+.our-team-members > img{
+  width: 100%;
+  border-radius: 10px;
+}
+.member-name{
+  align-self: center;
+  text-align: center;
+}
+.member-name > h2{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.member-name > h6{
+  font-size: 16px;
+}
+.our-team >p{
+  color: #646a70;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  padding-top: 20px;
+}
+@media (max-width: 940px) {
+  .third-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main{
+    padding-top: 90px ;
+    overflow-x: hidden;
+  }
+  p{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 23px;
+  }
+  .text-wrapper p,
+  .our-team p{
+    font-size: 14px;
+
+  }
+  .text-wrapper{
+    margin-left: 1px;
+  }
+
+}
+
