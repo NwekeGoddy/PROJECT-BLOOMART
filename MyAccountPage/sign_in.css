@@ -4,10 +4,13 @@
   margin:0;
   padding: 0;
 }
+body{
+  background:url('./images/on1.jpg') no-repeat center center/cover;
+}
 
 #stephenform {
   font-family: 'Raleway', sans-serif;
-  background: white;
+  
   line-height: 1.5;
   font-size: 25px;
 }
@@ -17,15 +20,15 @@ a {
 }
 
 #container {
-  background: white;
-  margin:  auto;
+  margin: auto;
   max-width: 900px;
   max-height:100% ;
-  padding: 20px;
 }
 
 .form-wrap {
-  box-shadow:5px 5px 20px black;
+  box-shadow: 10px 15px 10px 10px  black;
+  margin-top: 150px;
+  margin-bottom: 100px;
   background: #fff;
   padding: 15px 25px;
   color: black;
@@ -60,7 +63,7 @@ a {
   display: block;
   width: 50%;
   font-size: 20px;
-  margin-left: 159px;
+  margin: auto;
   padding: 10px;
   margin-top: 20px;
   background: black;
