@@ -249,7 +249,7 @@ html {
   margin-right: 20px;
 }
 #cart-container{
-  padding-top:x;
+  padding-top:10px;
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -265,10 +265,6 @@ html {
    border-collapse: collapse;
    width: 100%;
    table-layout: fixed;
-}
-
-#cart-container .quantity{
-  max-width: 20%;
 }
 
 #cart-container th, #cart-container td {
@@ -305,7 +301,6 @@ html {
 #cart-container table td:nth-child(6) {
     width: 170px;
  }
-
   #cart-container table tbody img {
       width: 25%;
       height: 25%;
@@ -323,21 +318,48 @@ html {
   transition: 0.5s;
 }
 
-#cart-bottom .coupon {
+.row{
+  display: flex;
+}
+
+#cart-bottom .total{
+  border: 1px solid #121212;
+  background-color: #121212;
+  color: #fff;
+  width: 45%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20px;
+  max-width: 350px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#cart-bottom .coupon{
   border: 1px solid #121212;
   background-color: #121212;
   color: #fff;
   padding: 10px;
+  margin-top: 30px;
   margin-left:20px;
   max-width: 350px;
-  border-radius: 10px;
+  max-height: 100px;
+  border-radius: 20px;
   transition: 0.5s;
 }
 
-#cart-bottom .coupon:hover {
+
+#cart-bottom .total:hover{
   background-color: #999999;
   color: #121212;  
 }
+
+#cart-bottom .coupon:hover{
+  background-color: #999999;
+  color: #121212;  
+}
+
+
 
 table, td {
   border-collapse: collapse;
