@@ -216,17 +216,6 @@ html {
   }
 }
 
-@media (min-width: 700px) {
-  .main-footer__link {
-    margin: 0 1rem;
-  }
-
-  .main-footer__links {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
 @keyframes wiggle {
   0% {
     transform: rotateZ(0);
