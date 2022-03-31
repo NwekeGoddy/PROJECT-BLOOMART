@@ -253,9 +253,17 @@ html {
 /* SHOPPING CART SECTION  */
 
 /* Cart */
+
+#shopping-cart{
+  padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #cart-container{
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top:x;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -268,6 +276,10 @@ html {
    border-collapse: collapse;
    width: 100%;
    table-layout: fixed;
+}
+
+#cart-container .quantity{
+  max-width: 20%;
 }
 
 #cart-container th, #cart-container td {
@@ -327,15 +339,41 @@ html {
   background-color: #121212;
   color: #fff;
   padding: 10px;
-  margin:0px 20px 0px 10px;
+  margin-left:20px;
+  max-width: 350px;
   border-radius: 10px;
   transition: 0.5s;
 }
 
 #cart-bottom .coupon:hover {
-  background-color: #767baa;
-  color: #121212;
-  
+  background-color: #999999;
+  color: #121212;  
 }
 
+table, td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
 
+thead {
+  display: table; /* to take the same width as tr */
+  width: calc(100% - 17px); /* - 17px because of the scrollbar width */
+}
+
+tbody {
+  display: block; /* to enable vertical scrolling */
+  max-height: 200px; /* e.g. */
+  overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
+}
+
+th, td {
+  width: 33.33%; /* to enable "word-break: break-all" */
+  padding: 5px;
+  word-break: break-all; /* 4. */
+}
+
+tr {
+  display: table; /* display purpose; th's border */
+  width: 100%;
+  box-sizing: border-box; /* because of the border (Chrome needs this line, but not FF) */
+}
