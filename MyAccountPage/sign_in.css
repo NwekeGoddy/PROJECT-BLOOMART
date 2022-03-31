@@ -1,0 +1,105 @@
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+  background:url('./images/on1.jpg') no-repeat center center/cover;
+}
+
+#stephenform {
+  font-family: 'Raleway', sans-serif;
+  
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  background: white;
+  margin: auto;
+  max-width: 900px;
+  max-height:100% ;
+}
+
+.form-wrap {
+  box-shadow: 10px 15px 10px 10px  black;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  background: #fff;
+  padding: 15px 25px;
+  color: black;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  margin-top: 10px;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  color: black;
+}
+.form-wrap .form-group input:hover{
+  box-shadow:5px 5px 20px black;
+}
+
+.form-wrap .form-group input {
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 10px;
+}
+
+.form-wrap button {
+  display: block;
+  width: 50%;
+  font-size: 20px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  box-shadow:5px 5px 20px black;
+  transition: all 0.3s ease-in;
+}
+.form-wrap button:hover {
+  background: white;
+  font-size: 25px ;
+  color: black;
+}
+
+.form-wrap .bottom-text {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  color:#49c1a2
+}
+footer a:hover{
+  font-size: 30px;
+}
+.form-wrap{
+  transform: translatex(-1500px);
+  animation: heading 0.5s forwards ease-in;
+}
+@keyframes heading {
+  to {
+    transform: translatex(0);
+  }}
