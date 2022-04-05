@@ -28,20 +28,20 @@
   
 main{
     margin: 20px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.istockphoto.com/photos/call-center-workers-picture-id903568822?k=20&m=903568822&s=612x612&w=0&h=w65sKNORb_B012-RmuALcUs_KboIiauSCHwfsztRWVc=");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://media.istockphoto.com/photos/call-center-workers-picture-id903568822?k=20&m=903568822&s=612x612&w=0&h=w65sKNORb_B012-RmuALcUs_KboIiauSCHwfsztRWVc=");
     background-position: 50%;
     background-size: cover;
-}
+}a
   
 .overall-wrapper-for-the-card{
-    background-color: #111111;
     color: #fff;
     padding: 30px;
-    margin: 50px 50px 10px 10px;
+    margin: 5px;
     border-radius: 14px;
     line-height: 2;
     width: 500px;
     transition: 0.5s;
+    flex: 1;
 }
   
   
@@ -52,38 +52,56 @@ main{
     border: 2px solid #fff;
     border-radius: 50%;
     padding: 4px;
-    margin: 15px;
+    margin: 10px 15px 0 15px;
     transition: 0.5s;
     cursor: pointer;
 }
   
   
 .Get-in-touch{
-    margin-top: 20px;
+    margin-top: 5px;
+}
+
+.chat-with-us{
+    display: flex;
+    gap: 10px;
+}
+
+.chat-with-us-svg{
+    margin-top: 5px;
 }
   
 .Office-Adddress{
-    margin-top: 20px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.office-address-svg{
+    margin-top: 5px;
 }
   
 .Telephone{
-    margin-top: 20px;
-    margin-bottom: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.telephone-svg{
+    margin-top: 10px;
 }
   
 .overall-housing-section{
     display: flex;
-    /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(117, 19, 93, 0.73)), url("https://media.istockphoto.com/photos/call-center-workers-picture-id903568822?k=20&m=903568822&s=612x612&w=0&h=w65sKNORb_B012-RmuALcUs_KboIiauSCHwfsztRWVc=");
-      background-position: 50%;
-      background-size: cover; */
 }
   
   /* FOR THE FORM SECTION */
   
 .form-section{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 10px;
-    flex: 2;
+    flex: 3;
 }
   
   
@@ -112,7 +130,6 @@ main{
   
 .form-title{
     font-weight: bolder;
-    font-size: 40px;
     text-align: center;
     color: white;
     font-weight: 800;
@@ -120,8 +137,9 @@ main{
   
   
 .form-brief{
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     color: white
 }
@@ -139,25 +157,26 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 5px; */
   
 }
   
 .form-group input{
-    border: 1px solid #111111;
+    border: 1px  #111111;
     border-radius: 5px;
     margin-bottom: 10px;
     width: 400px;
+    height: 15px;
     padding: 15px;
     font-size: 14px;
 }
   
 .form-group label{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
 }
   
 .form-group textarea{
@@ -166,8 +185,8 @@ main{
     padding: 10px;
     width: 400px;
     resize: none;
-    height: 330px;
-    margin-bottom: 5px;
+    height: 100px;
+    /* margin-bottom: 5px; */
 }
   
 .form-group button{
