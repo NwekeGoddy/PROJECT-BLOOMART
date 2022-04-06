@@ -60,11 +60,15 @@ main{
   
 .Get-in-touch{
     margin-top: 5px;
+    color: #ffffff;
+    margin-left: 10px;
 }
 
 .chat-with-us{
     display: flex;
     gap: 10px;
+    color: #ffffff;
+    margin-left: 10px;
 }
 
 .chat-with-us-svg{
@@ -75,6 +79,8 @@ main{
     margin-top: 10px;
     display: flex;
     gap: 10px;
+    color: #ffffff;
+    margin-left: 10px;
 }
 
 .office-address-svg{
@@ -83,9 +89,11 @@ main{
   
 .Telephone{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     display: flex;
     gap: 10px;
+    color: #ffffff;
+    margin-left: 10px;
 }
 
 .telephone-svg{
