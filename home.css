@@ -583,6 +583,15 @@ i.rated {
     margin-top: 30px;
   }
 }
+@media (max-width: 550px) {
+  .colorsneakercollection {
+    height: 60px;
+  }
+
+  .homeproducts-filter {
+    padding: 0 10px 30px 10px;
+  }
+}
 
 @keyframes slidingIn {
   0% {
@@ -605,6 +614,28 @@ i.rated {
     transform: translateX(0);
   }
 }
+@keyframes slidingIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slidingOut {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes slidingUp {
   0% {
     opacity: 0;
