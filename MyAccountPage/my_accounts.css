@@ -1,0 +1,130 @@
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+p{
+  text-align: center;
+}
+body{
+  background:url('./images/onlineimage.jpg') center center/cover ;
+}
+
+#stephenform {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color: blue;
+}
+
+#container {
+  margin: auto;
+  max-width: 900px;
+  max-height:100% ;
+  
+}
+
+.form-wrap {
+  box-shadow: 5px 5px 5px 5px black,-5px -5px 5px 5px black ;
+  margin-top: 125px;
+  margin-bottom: 100px;
+  background: #fff;
+  padding: 15px 25px;
+  color: black;
+  border-radius: 50px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  margin-top: 10px;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  color: black;
+
+}
+.form-wrap .form-group input {
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.form-wrap button {
+  display: block;
+  width: 50%;
+  font-weight: bold;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  box-shadow:5px 5px 5px black;
+  transition: all 0.3s ease-in;
+}
+.form-wrap button:hover {
+  background: white;
+  color: black;
+}
+
+.form-wrap .bottom-text {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  color:rgba(3, 51, 90, 0.877)
+}
+footer a:hover{
+  color: BLUe;
+}
+.form-wrap{
+  transform: translateX(-1500px);
+  animation: heading 0.5s forwards ease-in;
+}
+@keyframes heading {
+  to {
+    transform: translatex(0);
+  }}
+  #specialtext{
+    color: red;
+  }
+  .media-wrapper svg{
+    width: 90px;
+    height: 40px;
+    transition: 0.5s;
+    margin-left: 10px;
+    align-items: center;
+    padding-top: 2px;
+}
+.media-wrapper svg:first-child{
+  fill:rgb(10, 235, 59);
+}
+.media-wrapper svg:nth-child(2){
+  fill: rgb(23, 106, 214);
+}
+.media-wrapper svg:last-child{
+  fill: rgb(38, 22, 177);
+}
+
