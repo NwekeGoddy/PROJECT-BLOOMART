@@ -1,0 +1,111 @@
+/* START OF STYLING BY HAUWA ABDULKAREEM MUSTAPHA */
+
+main.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 50px 10px;
+    margin-top: 88px;    
+}
+
+main.product .each-product {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    /* border: 1px solid black; */
+}
+
+main.product .each-product .product-image {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+main.product .each-product img {
+    width: 100%;
+    height: 150px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.product .each-product p, main.product .each-product h3, main.product .each-product h4 {
+    padding: 0px 10px;
+}
+
+main.product .each-product p.product-tag {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+main.product .each-product p.product-tag i {
+    font-size: 16px;
+}
+
+p.product-tag .fa-heart {
+    color: white;
+    /* text-shadow: 0 0 0.3px #000;  */
+}
+
+p.product-tag .fa-heart:hover {
+    color: red;
+    text-shadow: none;
+}
+
+main.product .each-product h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+main.product .each-product h4.product-name {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+main.product .each-product p.product-rating {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 3px;
+}
+.product .fa-star {
+    /* text-shadow: 0 0 0.3px #000; */
+    color: white;
+}
+.product .fa-star:hover, .product i.rated {
+    /* color: black;
+    outline: black; */
+    color:rgb(224, 224, 26);
+}
+
+.product .product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .product-price button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.product .product-price button:hover {
+    color: rgb(201, 32, 32);
+}
+
+/* END OF STYLING BY HAUWA AND ABDULKAREEM MUSTAPHA */
