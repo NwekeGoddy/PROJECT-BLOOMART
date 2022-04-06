@@ -249,3 +249,164 @@ html {
     transform: translateX(0);
   }
 }
+
+/* SHOPPING CART SECTION  */
+
+/* Cart */
+
+#shopping-cart{
+  padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#cart-container{
+  padding-top:10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.container-fluid{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#cart-container table {
+   border-collapse: collapse;
+   width: 100%;
+   table-layout: fixed;
+}
+
+#cart-container th, #cart-container td {
+   text-align: center;
+   padding: 8px;
+   font-weight: 700;
+}
+
+#cart-container table thead td{
+  background-color: #121212;
+  color: #fff;
+  border: none;
+  padding: 6px 0px;
+  font-weight: 700;
+}
+
+#cart-container table td {
+   border: 1px solid #121212;
+   text-align: center;
+   padding: 6px 0px;
+} 
+
+#cart-container table td:nth-child(1) {
+   width: 100px;
+}
+
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3) {
+    width: 200px;
+ }
+
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6) {
+    width: 170px;
+ }
+
+ #cart-container .form-control{
+   max-width: 20%;
+ }
+
+  #cart-container table tbody img {
+      width: 25%;
+      height: 25%;
+      object-fit: cover;
+  }
+  
+#cart-container table tbody svg {
+  width: 30px;
+  height: 30px;
+  fill: #121212;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 4px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+table, td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+thead {
+  display: table; /* to take the same width as tr */
+  width: calc(100% - 17px); /* - 17px because of the scrollbar width */
+}
+
+tbody {
+  display: block; /* to enable vertical scrolling */
+  max-height: 800px; /* e.g. */
+  overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
+}
+
+th, td {
+  width: 33.33%; /* to enable "word-break: break-all" */
+  padding: 5px;
+  word-break: break-all; /* 4. */
+}
+
+tr {
+  display: table; /* display purpose; th's border */
+  width: 100%;
+  box-sizing: border-box; /* because of the border (Chrome needs this line, but not FF) */
+}
+
+  /*Coupon & Total
+}*/
+
+#cart-bottom .total{
+  border: 1px solid #121212;
+  background-color: #fff;
+  color: #121212;
+  width: 45%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20px;
+  max-width: 350px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#cart-bottom .coupon{
+  border: 1px solid #121212;
+  background-color: #fff;
+  color: #121212;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20px;
+  max-width: 350px;
+  max-height: 100px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#cart-bottom .apply{
+  background-color: #121212;
+color: #fff;
+border-radius: 6px;
+cursor: pointer;
+padding: 6px;
+margin: 3px;
+}
+
+#cart-bottom .proceed{
+  background-color: #121212;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 2px;
+
+
+}
