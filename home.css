@@ -255,6 +255,14 @@ body {
   white-space: nowrap;
 }
 
+.mobileview-forshopby {
+  display: none;
+  white-space: nowrap;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 30px;
+}
+
 .homeproducts-filter label {
   padding-left: 8px;
 }
@@ -590,6 +598,24 @@ i.rated {
 
   .homeproducts-filter {
     padding: 0 10px 30px 10px;
+  }
+
+  .homeproducts-filter {
+    display: none;
+  }
+
+  .btn:link {
+    transform: translateX(-50%) !important;
+  }
+
+  .homeproducts-list {
+    border-left: none;
+    justify-content: center;
+  }
+
+  .mobileview-forshopby {
+    display: block;
+    text-align: center;
   }
 }
 
