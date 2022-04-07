@@ -1,39 +1,86 @@
-/* START OF STYLING BY HAUWA ABDULKAREEM MUSTAPHA */
-main {
-    padding: 50px 10px;
+
+
+/* NEW PRODUCT PAGE LAYOUT */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.newproduct {
+    width: 100%;
+    margin: 10px auto;
+    padding: 50px 20px;
     margin-top: 88px;  
     background-color: #F4F4F4;
-}
-main .product {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #F4F4F4;
-    padding: 20px 10px;   
+    scroll-behavior: smooth;
 }
 
-main .product .each-product {
+.newproduct .various-category {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+.newproduct .various-category h3.category-name {
+    padding: 10px 5px;
+    background-color: #D5D4D8;
+    text-align: center;
+}
+
+.newproduct h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+.newproduct a {
+    color: black;
+    text-decoration: underline;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.newproduct .various-category a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.newproduct .category-product {
+    display: flex;
+    justify-content: center;
+    gap: 25px 15px;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.newproduct .each-product {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
+    width: 250px;
+    margin-top: 5px;
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
-
+    background-color: rgb(244, 244, 244);background-color: beige;
+    background-color: #e7e5eb;
+    
 } 
-main .product .each-product:hover { 
+
+.each-product:hover { 
     /* border: 1px solid black; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
 
-main .product .each-product .product-image {
+ .each-product .product-image {
     background-color: white;
     margin-bottom: 10px;
 }
 
-main .product .each-product img {
+.each-product img {
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -44,18 +91,18 @@ main .product .each-product img {
     align-items: center;
 }
 
-main .product .each-product p, main .product .each-product h3, main .product .each-product h4 {
+ .each-product p,  .each-product h3, .each-product h4 {
     padding: 0px 10px;
 }
 
-main .product .each-product p.product-tag {
+.each-product p.product-tag {
     display: flex;
     justify-content: space-between;
     font-size: 10px;
     text-transform: uppercase;
 }
 
-main .product .each-product p.product-tag i {
+.each-product p.product-tag i {
     font-size: 20px;
 }
 
@@ -69,13 +116,13 @@ p.product-tag .fa-heart:hover {
     /* text-shadow: none; */
 }
 
-main .product .each-product h3 {
+ .each-product h3 {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-main .product .each-product h4.product-name {
+ .each-product h4.product-name {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -85,30 +132,30 @@ main .product .each-product h4.product-name {
     text-transform: capitalize;
 }
 
-main .product .each-product p.product-rating {
+ .each-product p.product-rating {
     margin-bottom: 10px;
     display: flex;
     justify-content: start;
     align-items: center;
     column-gap: 3px;
 }
-.product .fa-star {
+ .fa-star {
     /* text-shadow: 0 0 0.3px #000; */
     color: white;
 }
-.product .fa-star:hover, .product i.rated {
+ .fa-star:hover,  i.rated {
     /* color: black;
     outline: black; */
     color:rgb(224, 224, 26);
 }
 
-.product .product-price {
+ .product-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.product .product-price button {
+ .product-price button {
     outline: none;
     border: none;
     cursor: pointer;
@@ -116,134 +163,67 @@ main .product .each-product p.product-rating {
     background-color: transparent;
 }
 
-.product .product-price button i {
+ .product-price button i {
     font-size: 20px;
 }
 
-.product .product-price button:hover {
+ .product-price button:hover {
     color: rgb(201, 32, 32);
 }
 
-.checkout-btn {
-    
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.checkout-btn a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    display: inline-block;
-    padding: 15px 20px;
-}
-
-.checkout-btn a:hover {
-    border: 1px solid rgb(34, 30, 30);
-}
-
-/* END OF STYLING BY HAUWA AND ABDULKAREEM MUSTAPHA */
-
-
-@media screen and (min-width: 750px) {
-    main {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .products-filter {
-        width: 10vw;
-        margin-left: 30px;
-        padding-top: 40px;
-    }
-
-    .filter-content {
-        position: fixed;
-    }
-
-    .filter-content h2 {
-        margin-bottom: 10px;
-    }
-
-    .filter {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .filter-content input {
-        margin-right: 7.5px;
-    }
-
-    .product {
-        width: 80vw;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    main {
+@media screen and (max-width: 550px) {
+    /* main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    } */
+
+
+    .newproduct .various-category {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-bottom: 50px;
     }
 
-    main .product .each-product {
+    .newproduct .category-product {
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+
+     .each-product {
         max-width: 150px;
     }
 
-    main .product .each-product img {
+     .each-product img {
         width: 100%;
         height: 150px;
         object-fit: cover;
     }
 
-    main .product .each-product h3 {
+     .each-product h3 {
         font-size: 15px;
     }
 
-    .product .product-price button {
+     .product-price button {
         text-align: center;
     }
 
-    .product .product-price button i {
+     .product-price button i {
         font-size: 10px;
     }
 
-    .products-filter {
-        width: 100%;
-        padding: 10px 20px;
-    }
-    
-
-    .filter-content {
-        /* position: fixed; */
+    .newproduct .category-product {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 10px 20px;
+        justify-content: space-between;
+        gap: 25px 10px;
+        
+        
     }
+}
 
-    .filter-content h2 {
-        /* margin-right: auto; */
-        flex: 1 0 100%;
-        text-align: center;
-    }
+@media screen and (min-width: 650px) {
 
-    .filter-content input {
-        margin-right: 5px;
-    }
-
-    .filter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
- /*
-    .product {
-        width: 80vw;
-        right: 0;
-        border: 1px solid red;
-    } */
 }
