@@ -365,9 +365,7 @@ tr {
 
 
 
-/*.row{
-  display: flex;
-
+/*
   Coupon & Total
 }*/
 
@@ -379,6 +377,7 @@ tr {
   padding: 10px;
   margin-top: 30px;
   margin-left:20px;
+  margin-bottom: 40px;
   max-width: 350px;
   border-radius: 5px;
   transition: 0.5s;
@@ -393,6 +392,7 @@ tr {
   padding: 10px;
   margin-top: 30px;
   margin-left:20px;
+  margin-bottom: 40px;
   max-width: 350px;
   max-height: 100px;
   border-radius: 5px;
