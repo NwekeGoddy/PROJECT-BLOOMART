@@ -115,10 +115,6 @@ html {
   transition: 0.5s;
 }
 
-.main-nav__item--cta {
-  animation: wiggle 200ms 3s 8 ease-out none;
-}
-
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
   color: #121212;
@@ -129,16 +125,21 @@ html {
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-  color: #000000;
-  background: #777777;
-  border: none;
+  color: #121212;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 26px;
+  cursor: pointer;
 }
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-  color: #000000;
-  background: #777777;
-  border: none;
+  color: #121212;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 26px;
+  cursor: pointer;
 }
+
 .adjust {
   height: 50px;
   width: 100%;
@@ -216,18 +217,6 @@ html {
   }
 }
 
-@keyframes wiggle {
-  0% {
-    transform: rotateZ(0);
-  }
-  50% {
-    transform: rotateZ(-10deg);
-  }
-  100% {
-    transform: rotateZ(10deg);
-  }
-}
-
 @keyframes slidingOut {
   0% {
     /* opacity: 0; */
@@ -301,6 +290,11 @@ html {
 #cart-container table td:nth-child(6) {
     width: 170px;
  }
+
+ #cart-container .form-control{
+   max-width: 20%;
+ }
+
   #cart-container table tbody img {
       width: 25%;
       height: 25%;
@@ -318,49 +312,6 @@ html {
   transition: 0.5s;
 }
 
-.row{
-  display: flex;
-}
-
-#cart-bottom .total{
-  border: 1px solid #121212;
-  background-color: #121212;
-  color: #fff;
-  width: 45%;
-  padding: 10px;
-  margin-top: 30px;
-  margin-left:20px;
-  max-width: 350px;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-
-#cart-bottom .coupon{
-  border: 1px solid #121212;
-  background-color: #121212;
-  color: #fff;
-  padding: 10px;
-  margin-top: 30px;
-  margin-left:20px;
-  max-width: 350px;
-  max-height: 100px;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-
-
-#cart-bottom .total:hover{
-  background-color: #999999;
-  color: #121212;  
-}
-
-#cart-bottom .coupon:hover{
-  background-color: #999999;
-  color: #121212;  
-}
-
-
-
 table, td {
   border-collapse: collapse;
   border: 1px solid #000;
@@ -373,7 +324,7 @@ thead {
 
 tbody {
   display: block; /* to enable vertical scrolling */
-  max-height: 200px; /* e.g. */
+  max-height: 800px; /* e.g. */
   overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
 }
 
@@ -387,4 +338,58 @@ tr {
   display: table; /* display purpose; th's border */
   width: 100%;
   box-sizing: border-box; /* because of the border (Chrome needs this line, but not FF) */
+}
+
+
+
+/*.row{
+  display: flex;
+
+  Coupon & Total
+}*/
+
+#cart-bottom .total{
+  border: 1px solid #121212;
+  background-color: #fff;
+  color: #121212;
+  width: 45%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20px;
+  max-width: 350px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#cart-bottom .coupon{
+  border: 1px solid #121212;
+  background-color: #fff;
+  color: #121212;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20px;
+  max-width: 350px;
+  max-height: 100px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#cart-bottom .apply{
+background-color: #121212;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+padding: 5px;
+margin: 2px;
+}
+
+#cart-bottom .proceed{
+  background-color: #121212;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 2px;
+
+
 }
