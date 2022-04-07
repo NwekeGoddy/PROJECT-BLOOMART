@@ -364,6 +364,7 @@ tr {
 
 
 
+
 /*.row{
   display: flex;
 
@@ -382,6 +383,8 @@ tr {
   border-radius: 5px;
   transition: 0.5s;
 }
+
+
 
 #cart-bottom .coupon{
   border: 1px solid #121212;
@@ -412,6 +415,4 @@ margin: 2px;
   cursor: pointer;
   padding: 5px;
   margin: 2px;
-
-
 }
