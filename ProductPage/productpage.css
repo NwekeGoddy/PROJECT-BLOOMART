@@ -113,6 +113,7 @@ main .product .each-product p.product-rating {
     border: none;
     cursor: pointer;
     font-size: 10px;
+    background-color: transparent;
 }
 
 .product .product-price button i {
@@ -121,6 +122,26 @@ main .product .each-product p.product-rating {
 
 .product .product-price button:hover {
     color: rgb(201, 32, 32);
+}
+
+.checkout-btn {
+    
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.checkout-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.checkout-btn a:hover {
+    border: 1px solid rgb(34, 30, 30);
 }
 
 /* END OF STYLING BY HAUWA AND ABDULKAREEM MUSTAPHA */
@@ -166,6 +187,28 @@ main .product .each-product p.product-rating {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    main .product .each-product {
+        max-width: 150px;
+    }
+
+    main .product .each-product img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    main .product .each-product h3 {
+        font-size: 15px;
+    }
+
+    .product .product-price button {
+        text-align: center;
+    }
+
+    .product .product-price button i {
+        font-size: 10px;
     }
 
     .products-filter {
