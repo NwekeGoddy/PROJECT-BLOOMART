@@ -3,13 +3,13 @@ align-content: center;
 max-width: 80%;
 }
 #stephenform {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.4;
-    font-size: 25px;
+    font-family: "poppins", sans-serif;
+    line-height: 1;
+    font-size: 15px;
   }
   .media-wrapper svg{
     width: 50px;
-    height: 40px;
+    height: 25px;
     transition: 0.5s;
     margin-right: 10px;
     align-items: center;
@@ -23,4 +23,11 @@ max-width: 80%;
 }
 .media-wrapper svg:last-child{
   fill: rgb(38, 22, 177);
+}
+.form-wrap .bottom-text {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.form-wrap button{
+  font-size: 15px;
 }
