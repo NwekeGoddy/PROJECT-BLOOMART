@@ -1,0 +1,205 @@
+/* ADENIGBAS STYLING START FROM HERE */
+
+  
+main{
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://media.istockphoto.com/photos/call-center-workers-picture-id903568822?k=20&m=903568822&s=612x612&w=0&h=w65sKNORb_B012-RmuALcUs_KboIiauSCHwfsztRWVc=");
+    background-position: 50%;
+    background-size: cover;
+}
+
+
+.heading-contact-us{
+    text-align: center;
+    color: #ffffff;
+}
+
+.heading-contactus-brief{
+    text-align: center;
+    color: #ffffff;
+}
+  
+.overall-wrapper-for-the-card{
+    color: #fff;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 14px;
+    line-height: 2;
+    width: 500px;
+    transition: 0.5s;
+    flex: 1;
+}
+  
+  
+.media-wrapper svg{
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 10px 15px 0 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+  
+  
+.Get-in-touch{
+    margin-top: 5px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.chat-with-us{
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.chat-with-us-svg{
+    margin-top: 5px;
+}
+  
+.Office-Adddress{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.office-address-svg{
+    margin-top: 5px;
+}
+  
+.Telephone{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.telephone-svg{
+    margin-top: 10px;
+}
+  
+.overall-housing-section{
+    display: flex;
+}
+  
+  /* FOR THE FORM SECTION */
+  
+.form-section{
+    margin-top: 10px;
+    margin-left: 10px;
+    flex: 3;
+}
+  
+  
+  /* Media Queries */
+  @media(max-width:768px) {
+  
+    /* Same code just width changed to 100% */
+    .overall-wrapper-for-the-card{
+        padding: 30px;
+        margin:0px;
+        width: 100%;
+    }
+  
+  /* To remove overlapping on mobile view */
+    .form-section{
+       margin: 50px 5px 0px 5px;
+  
+    }
+  
+    /* To break the section into two lines */
+    .overall-housing-section{
+        display:block;
+    }
+  }
+  
+  
+.form-title{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+  
+  
+.form-brief{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white
+}
+  
+  
+.form-brief a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+  
+  
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+  
+}
+  
+.form-group input{
+    border: 1px  #111111;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+  
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+  
+.form-group textarea{
+    border: 1px solid #111111;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    resize: none;
+    height: 100px;
+    /* margin-bottom: 5px; */
+}
+  
+.form-group button{
+    background-color: #111111;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-transform: uppercase;
+  
+}
+  
+  /* .form-group button:hover{
+    position: relative;
+  } */
+  
+  
+/* ADENIGBA AHMED STYLING ENDS HERE */
