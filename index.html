@@ -12,18 +12,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="home.css" />
+
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/d0bc77ca84.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="main/main.css">
+
   </head>
 
   <body>
     <!--START  HEADER SECTION BY NWEKE CHIDI -->
     <div class="backdrop"></div>
-    <div class="backgroundoverlay">
-      <img
-        src="images/josh-nuttall-XVTWFHcNIko-unsplash.jpg"
-        alt="backgroundoverlay-image"
-      />
-    </div>
+   
     <header class="main-header">
       <div>
         <button class="toggle-button">
@@ -41,14 +41,12 @@
       <nav class="main-nav">
         <ul class="main-nav__items">
           <li class="main-nav__item main-nav__item--cta">
-            <a href="index.html">Home</a>
+            <a >Home</a>
           </li>
           <li class="main-nav__item">
             <a href="ProductPage/product.html">Products</a>
           </li>
-          <li class="main-nav__item">
-            <a href="ShopingCartPage/shoppingCart.html">Shopping Cart</a>
-          </li>
+          
           <li class="main-nav__item">
             <a href="MyAccountPage/myAccount.html">My Account</a>
           </li>
@@ -57,6 +55,9 @@
           </li>
           <li class="main-nav__item">
             <a href="ContactUsPage/contactUs.html">Contact Us</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="ShopingCartPage/shoppingCart.html">Cart</a>
           </li>
         </ul>
       </nav>
@@ -71,14 +72,12 @@
       </a>
       <ul class="mobile-nav__items">
         <li class="mobile-nav__item mobile-nav__item--cta">
-          <a href="index.html">Home</a>
+          <a>Home</a>
         </li>
         <li class="mobile-nav__item">
           <a href="ProductPage/product.html">Products</a>
         </li>
-        <li class="mobile-nav__item">
-          <a href="ShopingCartPage/shoppingCart.html">Shopping Cart</a>
-        </li>
+        
         <li class="mobile-nav__item">
           <a href="MyAccountPage/myAccount.html">My Account</a>
         </li>
@@ -88,14 +87,23 @@
         <li class="mobile-nav__item">
           <a href="ContactUsPage/contactUs.html">Contact Us</a>
         </li>
+        <li class="mobile-nav__item">
+          <a href="ShopingCartPage/shoppingCart.html">Cart</a>
+        </li>
       </ul>
     </nav>
     <!--END  HEADER SECTION BY NWEKE CHIDI -->
 
     <main>
       <!--START  SECTION BY NWEKE CHIDI GODWIN -->
-      <section class="hero-section">
-        <div class="hero-section-wrapper">
+      <div class="backgroundoverlay">
+        <img
+              src="images/imgonline-com-ua-blur-v3uKJOtuIXkkdz8O.jpg"
+              alt="backgroundoverlay-image"
+              class="backgroundoverlay-image"
+            />
+       
+      <div class="whole-wrapper">
           <div class="hero-sneakerimage">
             <img src="images/PngItem_2587821.png" alt="hero sneaker" />
           </div>
@@ -105,276 +113,465 @@
             <p class="third">
               STARTING AT
               <span
-                ><span class="hero-textframe-dollar"><sup>$</sup></span
-                >50</span
-              ><span class="hero-textframe-button box">
-                <a href="#" class="btn btn-white btn-animation">SHOP NOW</a>
-              </span>
+                ><span class="hero-textframe-dollar"><sup>₦</sup></span
+                >800</span
+              ><div class="hero-textframe-button box">
+                <a href="#" class="btn1 btn-white btn-animation">SHOP NOW</a>
+              </div>
             </p>
           </div>
-        </div>
-      </section>
+    </div>
+  </div>
       <section>
+        <h2 class="mobileview-forshopby">SHOP BY</h2>
         <div class="homeproducts">
           <div class="homeproducts-filter">
             <h2>SHOP BY</h2>
             <div class = "filter">
-              <input type="checkbox" id="all" name="all" value="all" />
-              <label>ALL</label>
+              <li class="li-adjustment">
+                <input type="checkbox" id="all" name="all" value="all" checked />
+                <label>ALL</label>
+              </li>
+              
             </div>
             <div class = "filter">
+              <li class="li-adjustment">
               <input
                 type="checkbox"
                 id="accessories"
                 name="accessories"
                 value="accessories"
+                
               />
-              <label for="accessories">JUGAR</label>
+              <label for="accessories">SNEAKERS</label>
+              </li>
             </div>
             <div class = "filter">
+              <li class="li-adjustment">
               <input
                 type="checkbox"
                 id="sneaks"
                 name="sneaks"
                 value="sneaks"
-                checked
+               
               />
-              <label for="sneakers">SNEAKS</label>
+              <label for="sneakers">BOOTS</label>
+              </li>
             </div>
             <div class = "filter">
+              <li class="li-adjustment">
               <input type="checkbox" id="bags" name="bags" value="bags" />
-              <label for="bags">BAGS</label>
+              <label for="bags">MEN</label>
             </div>
             <div class = "filter">
+              <li class="li-adjustment">
               <input type="checkbox" id="boots" name="boots" value="boots" />
-              <label for="boots">BOOTS</label>
+              <label for="boots">WOMEN</label>
+              </li>
+              <li class="li-adjustment">
             </div>
             <div class = "filter">
+              <li class="li-adjustment">
+              <input type="checkbox" id="boots" name="boots" value="boots" />
+              <label for="boots">BAGS</label>
+              </li>
+              <li class="li-adjustment">
+            </div>
+            <div class = "filter">
+              <li class="li-adjustment">
               <input
                 type="checkbox"
                 id="clogs"
                 name="clogs"
                 value="clogs"
-              /><label for="clogs">CLOGS</label>
+              /><label for="clogs">ACCESSORIES</label>
+              </li>
             </div>
           </div class = "filter">
+
           <div class="homeproducts-list">
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_1902650.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MENS/SNEAKS</p>
-              <p class="homeproduct-name">NIKE AIRFORCE1</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$12.99</p>
-            </div>
 
+          <!--   /////////////////////////////////////////////////////// -->
             <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_1902743.png"
-                  alt=""
-                  width="130px"
-                  height="130px"
-                />
-              </div>
-              <p class="brief">MENS/SNEAKS</p>
-              <p class="homeproduct-name">FUTURE GEN</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$17.99</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_258155.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MEN/SNEAKS</p>
-              <p class="homeproduct-name">JORDAN SLIP</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width = "10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$14.89</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_2587821.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MENS/SNEAKS</p>
-              <p class="homeproduct-name">JORDAN COOL2</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$22.89</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_2792755.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MEN/SNEAKS</p>
-              <p class="homeproduct-name">SUPRA SMOOTH</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$37.89</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_3788118.png"
-                  alt=""
-                  width="125px"
-                  height="125px"
-                />
-              </div>
-              <p class="brief">MEN/SNEAKS</p>
-              <p class="homeproduct-name">TOMMY SPORT</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$19.99</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="imageS/PngItem_349415.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MEN/SNEAKS</p>
-              <p class="homeproduct-name">NIKE E-FLIP</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$59.89</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/PngItem_4886028.png"
-                  alt=""
-                  width="130px"
-                  height="130px"
-                />
-              </div>
-              <p class="brief">MENS/SNEAKS</p>
-              <p class="homeproduct-name">BLACKMADE</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$123.29</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/kisspng-nike-free-air-force-shoe-sneakers-nike-shoes-transparent-background-5a7931690711e9.802116171517891945029.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MENS/SNEAKS</p>
-              <p class="homeproduct-name">NIKE AIR FORCE</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="10px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$72.89</p>
-            </div>
-
-            <div class="homeproduct">
-              <div class="homeproduct-image">
-                <img
-                  src="images/kisspng-air-jordan-shoe-sneakers-nike-jordan-spizike-air-jordan-basketball-shoes-5a7bfa0d76e378.869957621518074381487.png"
-                  alt=""
-                  width="120px"
-                  height="120px"
-                />
-              </div>
-              <p class="brief">MENS/SNEAKS</p>
-              <p class="homeproduct-name">JORDAN CLIMATE</p>
-              <img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ ><img src="images/icons8-star-50.png" alt=""
-              width="10px" height="10px"/ ><img src="images/icons8-star-50.png"
-              alt="" width="10px" height="10px"/ ><img
-              src="images/icons8-star-50.png" alt="" width="05px" height="10px"/
-              ><img src="images/icons8-star-50.png" alt="" width="10px"
-              height="10px"/ >
-              <p class="homeproduct-price">$199.99</p>
-            </div>
-            <div class="hero-textframe-button box">
-              <a href="#" class="btn btn-white btn-animation loadmore">LOAD MORE</a>
-            </div>
-          </div>
+               <div class="each-product">
+        <div class="product-image">
+            <img src="images/bag.webp" alt="">
         </div>
-      </section>
 
+        <p class="product-tag">
+            MEN, ACCESSORIES
+            <i class="fa fa-heart fa-lg"></i>
+        </p>
+
+        <h4 class="product-name">converse Chuck Quater</h4>
+
+        <P class="product-rating">
+          <i class="fa fa-star rated"></i>
+          <i class="fa fa-star rated"></i>
+          <i class="fa fa-star rated"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </P>
+
+        <h3 class="product-price">
+          ₦1500.00
+          <button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+        </h3>
+      </div>
+            </div>
+   <!--   /////////////////////////////////////////////////////// -->
+
+    <!--   /////////////////////////////////////////////////////// -->
+    <div class="homeproduct">
+      <div class="each-product">
+<div class="product-image">
+   <img src="images/bagg.webp" alt="">
+</div>
+
+<p class="product-tag">
+  WOMEN, ACCESSORIES
+   <i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Backpack Sleek</h4>
+
+<P class="product-rating">
+ <i class="fa fa-star rated"></i>
+ <i class="fa fa-star rated"></i>
+ <i class="fa fa-star rated"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+  ₦15800.00
+ <button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+   </div>
+<!--   /////////////////////////////////////////////////////// -->
+
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/FootballVapor24_7_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+ MEN, SPORTS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Football Vapor 2012</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+  ₦23000.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/HatBlackSuits_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, CAPS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">black Nike Cap</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+  ₦12500.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/HyperadaptShieldLiteHalf-Zip_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, CLOTHS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Hyperadapt Shorts</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+  ₦17600.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/JordanFlight1_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, CLOTHS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Jordan Bodyhugs</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+  ₦24300.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/JordanHyperGripOt_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, SPORTS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Jordan Hyper Grip</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+₦5000.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/Long-Length2.0_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, WOMEN, ACCESSORIES
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Long Length 2.0</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+₦24900.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/Manblackpants_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, CLOTHS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Men Black Pants</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+  ₦15700.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/NikeAirZoomOdyssey2_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, SNEAKERS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Nike Zoom</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+₦46500.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/SwimmingCapSlin_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, WOMEN, ACCESSORIES
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Swimming Cap Slin</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+₦4450.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+ <!--   /////////////////////////////////////////////////////// -->
+ <div class="homeproduct">
+  <div class="each-product">
+<div class="product-image">
+<img src="images/now/Speed500Ignite_400x_crop_center.webp" alt="">
+</div>
+
+<p class="product-tag">
+MEN, SNEAKERS
+<i class="fa fa-heart fa-lg"></i>
+</p>
+
+<h4 class="product-name">Adidas Vapor Max</h4>
+
+<P class="product-rating">
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star rated"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</P>
+
+<h3 class="product-price">
+$71500.00
+<button><i class="fas fa-cart-plus fa-lg"></i> Add to Cart</button>
+</h3>
+</div>
+</div>
+<!--   /////////////////////////////////////////////////////// -->
+         
+        </div>
+      
+      </section>
+      <div class="hero-textframe-button box moveloadmorebox">
+        <a href="#" class="btn btn-white btn-animation loadmore">LOAD MORE</a>
+      </div>
+    </div>
+
+    <section>
+      <div class="ultraboost-wrapper">
+          <img src="images/shop18_home_banner4.webp" alt="" class="coverimage">
+
+            <div class="ultraboost-brief">
+              <h1>ULTRA BOOST</h1>
+              <div>
+                <img src="images/shoes.webp" alt="" class="colorsneakercollection">
+              </div>
+              <div class="shopnowbtn">
+                <a href="#" class="shopnow">SHOP NOW</a>
+              </div>
+              </div>
+            </div>
+    </section>
+
+    <!-- <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br> -->
       <!--END  SECTION BY NWEKE CHIDI GODWIN -->
       <!-- START SECTION BY CHIDI CONFIDENSE -->
         
@@ -546,7 +743,46 @@
       <!-- END SECTION BY CHIDI CONFIDENSE -->
     </main>
     <!-- START FOOTER SECTION BY CHIDI CONFIDENCE -->
-    <footer class="main-footer"></footer>
+   <!-- footer  -->
+  
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and iOS mobile phone.</p>
+          <div class="app-logo">
+            <img src="images/play-store.png" alt="">
+            <img src="images/app-store.png" alt="">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/bloomart-logo.png" alt="">
+           <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+         </div>
+         <div class="footer-col-3">
+          <h3> Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>BlooMart Affliate</li>
+          </ul>
+         </div>
+         <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instgram</li>
+            <li>YouTube</li>
+          </ul>
+         </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2022 -@bloomart </p>
+    </div>
+  </div>
     <!-- END FOOTER SECTION BY CHIDI CONFIDENCE -->
     <script src="script.js"></script>
   </body>

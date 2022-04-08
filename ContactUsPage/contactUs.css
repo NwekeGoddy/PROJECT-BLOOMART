@@ -1,37 +1,23 @@
 /* ADENIGBAS STYLING START FROM HERE */
 
-.nav-link{
-    margin: 20px;
-    margin-top: 50px;
-}
-  
-.heading-contact-us{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-    color: #fff;
-}
-  
-.heading-contactus-brief{
-    text-align: center;
-    font-weight: bolder;
-    color: #fff;
-}
-  
-.nav-link a{
-    text-decoration: none; 
-}
-  
-.nav-link a:hover{
-    color: #111111;
-}
   
 main{
-    margin: 20px;
+    margin-top: 80px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://media.istockphoto.com/photos/call-center-workers-picture-id903568822?k=20&m=903568822&s=612x612&w=0&h=w65sKNORb_B012-RmuALcUs_KboIiauSCHwfsztRWVc=");
     background-position: 50%;
     background-size: cover;
-}a
+}
+
+
+.heading-contact-us{
+    text-align: center;
+    color: #ffffff;
+}
+
+.heading-contactus-brief{
+    text-align: center;
+    color: #ffffff;
+}
   
 .overall-wrapper-for-the-card{
     color: #fff;

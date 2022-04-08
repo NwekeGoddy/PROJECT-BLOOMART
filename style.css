@@ -115,10 +115,6 @@ html {
   transition: 0.5s;
 }
 
-.main-nav__item--cta {
-  animation: wiggle 200ms 3s 8 ease-out none;
-}
-
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
   color: #121212;
@@ -129,16 +125,21 @@ html {
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-  color: #000000;
-  background: #777777;
-  border: none;
+  color: #121212;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 26px;
+  cursor: pointer;
 }
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-  color: #000000;
-  background: #777777;
-  border: none;
+  color: #121212;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 26px;
+  cursor: pointer;
 }
+
 .adjust {
   height: 50px;
   width: 100%;
@@ -213,18 +214,6 @@ html {
   .main-nav__item {
     margin: 0 0.5rem;
     font-size: 11px;
-  }
-}
-
-@keyframes wiggle {
-  0% {
-    transform: rotateZ(0);
-  }
-  50% {
-    transform: rotateZ(-10deg);
-  }
-  100% {
-    transform: rotateZ(10deg);
   }
 }
 
@@ -353,9 +342,8 @@ tr {
 
 
 
-/*.row{
-  display: flex;
 
+/*
   Coupon & Total
 }*/
 
@@ -367,10 +355,13 @@ tr {
   padding: 10px;
   margin-top: 30px;
   margin-left:20px;
+  margin-bottom: 40px;
   max-width: 350px;
   border-radius: 5px;
   transition: 0.5s;
 }
+
+
 
 #cart-bottom .coupon{
   border: 1px solid #121212;
@@ -379,6 +370,7 @@ tr {
   padding: 10px;
   margin-top: 30px;
   margin-left:20px;
+  margin-bottom: 40px;
   max-width: 350px;
   max-height: 100px;
   border-radius: 5px;
@@ -401,6 +393,4 @@ margin: 2px;
   cursor: pointer;
   padding: 5px;
   margin: 2px;
-
-
 }
